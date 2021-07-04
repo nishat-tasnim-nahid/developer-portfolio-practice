@@ -1,6 +1,9 @@
 body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-align: justify;
+   background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    padding-left: 5%;
 }
 h1{
     font-size: 40px;
@@ -21,11 +24,7 @@ h2{
     padding: 5px 10px;
     border-radius: 7px;
 }
-.top-banner{
-    background-image: url(image/top-banner.png);
-    background-repeat: no-repeat;
-    padding-right: 20px;
-}
+
 .mid-banner{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
@@ -35,12 +34,16 @@ h2{
     background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
 }
-.for-flexible{
+section{
     display: flex;
+}
+.for-flexible{
+    
     margin-bottom: 100px;
 }
 .for-width{
     width: 50%;
+    padding: 3%;
     
 }
   .for-width img{
@@ -59,4 +62,13 @@ h2{
   }
   footer p{
       text-align: center;
+  }
+  .border{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid lightseagreen;
   }
