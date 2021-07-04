@@ -1,5 +1,6 @@
 body{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: justify;
 }
 h1{
     font-size: 40px;
@@ -9,6 +10,9 @@ h2{
 }
 .color{
    color: tomato;
+}
+.color-ag{
+    color: sienna;
 }
 .link-button{
     text-decoration: none;
@@ -20,11 +24,16 @@ h2{
 .top-banner{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+    padding-right: 20px;
 }
 .mid-banner{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.bottom-banner{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
 }
 .for-flexible{
     display: flex;
@@ -38,4 +47,16 @@ h2{
       width: 95%;
       padding-right: 30%;
 
+  }
+  .border-diff{
+
+      border-left: 7px double ;
+      border-image: linear-gradient(purple,blue);
+      border-image-slice: 1;
+      padding-left: 10px;
+      padding-right: 15px;
+
+  }
+  footer p{
+      text-align: center;
   }
