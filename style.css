@@ -1,0 +1,41 @@
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+}
+.color{
+   color: tomato;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(darkslateblue,purple);
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+.top-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.mid-banner{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.for-flexible{
+    display: flex;
+    margin-bottom: 100px;
+}
+.for-width{
+    width: 50%;
+    
+}
+  .for-width img{
+      width: 95%;
+      padding-right: 30%;
+
+  }
